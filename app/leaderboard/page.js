@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { Trophy, Medal, Star, Target, ArrowLeft, Crown, Award } from 'lucide-react'
-import dataManager from '../lib/data'
+import dataManager from '../lib/data.js'
 
 export default function LeaderboardPage() {
   const [leaderboard, setLeaderboard] = useState([])

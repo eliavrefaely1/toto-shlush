@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { Trophy, Users, Settings, Star, Target, Gift } from 'lucide-react'
-import dataManager from './lib/data'
+import dataManager from './lib/data.js'
 
 export default function Home() {
   const [pot, setPot] = useState({ totalAmount: 0, numOfPlayers: 0 })

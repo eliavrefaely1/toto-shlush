@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import { Shield, Settings, Users, Trophy, Plus, Save, Eye, EyeOff, ArrowLeft, Edit, Trash2, CheckCircle } from 'lucide-react'
-import dataManager from '../lib/data'
+import dataManager from '../lib/data.js'
 
 export default function AdminPage() {
   const router = useRouter()

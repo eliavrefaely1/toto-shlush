@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import { Target, Save, ArrowRight, ArrowLeft, CheckCircle } from 'lucide-react'
-import dataManager from '../lib/data'
+import dataManager from '../lib/data.js'
 
 export default function GuessPage() {
   const router = useRouter()
