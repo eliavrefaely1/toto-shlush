@@ -1,0 +1,39 @@
+{
+  "name": "Match",
+  "type": "object",
+  "properties": {
+    "week": {
+      "type": "number",
+      "description": "מספר השבוע"
+    },
+    "match_number": {
+      "type": "number",
+      "description": "מספר המשחק (1-16)"
+    },
+    "home_team": {
+      "type": "string",
+      "description": "קבוצת הבית"
+    },
+    "away_team": {
+      "type": "string",
+      "description": "קבוצת החוץ"
+    },
+    "result": {
+      "type": "string",
+      "enum": [
+        "1",
+        "X",
+        "2",
+        ""
+      ],
+      "default": "",
+      "description": "תוצאת המשחק"
+    }
+  },
+  "required": [
+    "week",
+    "match_number",
+    "home_team",
+    "away_team"
+  ]
+}

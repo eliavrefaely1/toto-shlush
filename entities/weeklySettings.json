@@ -1,0 +1,22 @@
+{
+  "name": "WeeklySettings",
+  "type": "object",
+  "properties": {
+    "current_week": {
+      "type": "number",
+      "default": 1,
+      "description": "השבוע הנוכחי"
+    },
+    "admin_password": {
+      "type": "string",
+      "default": "1234",
+      "description": "סיסמת מנהל"
+    },
+    "entry_fee": {
+      "type": "number",
+      "default": 35,
+      "description": "דמי כניסה בשקלים"
+    }
+  },
+  "required": []
+}

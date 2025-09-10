@@ -1,0 +1,18 @@
+{
+  "name": "Participant",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "שם המשתתף"
+    },
+    "phone": {
+      "type": "string",
+      "description": "מספר טלפון"
+    }
+  },
+  "required": [
+    "name",
+    "phone"
+  ]
+}
