@@ -31,7 +31,7 @@ class DataManager {
     return {
       currentWeek: 1,
       adminPassword: '1234',
-      entryFee: 30,
+      entryFee: 35,
       matches: [],
       users: [],
       userGuesses: [],

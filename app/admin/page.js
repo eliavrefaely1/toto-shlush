@@ -14,7 +14,7 @@ export default function AdminPage() {
   const [isLoading, setIsLoading] = useState(false)
   
   // נתונים
-  const [settings, setSettings] = useState({ currentWeek: 1, adminPassword: '1234', entryFee: 30 })
+  const [settings, setSettings] = useState({ currentWeek: 1, adminPassword: '1234', entryFee: 35 })
   const [matches, setMatches] = useState([])
   const [participants, setParticipants] = useState([])
   const [leaderboard, setLeaderboard] = useState([])
@@ -415,7 +415,7 @@ export default function AdminPage() {
                     <input
                       type="number"
                       value={settings.entryFee}
-                      onChange={(e) => updateSettings({ entryFee: parseInt(e.target.value) || 30 })}
+                      onChange={(e) => updateSettings({ entryFee: parseInt(e.target.value) || 35 })}
                       className="input"
                     />
                   </div>
